@@ -21,7 +21,7 @@ repository               : "trl730109/trl730109.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "WechatIMG199.jpg"
+  avatar           : "files/WechatIMG199.jpg"
   name             : "TANG Zichen"
   pronouns         : # example: "she/her"  
   bio              : "MPhil student as DSA in HKUST(GZ)"
