@@ -14,9 +14,9 @@ author_profile: true
     <li>
       {{ post.authors }}. <em>{{ post.title }}</em>.
       {% if post.status == "Accepted" %}
-        In {{ post.venue }}, {{ post.date | date: "%Y" }} ({{ post.status }}).
+        In {{ post.venue }} ({{ post.status }}).
       {% else %}
-        {{ post.venue }}, {{ post.date | date: "%Y" }} - {{ post.status }}
+        {{ post.venue }} - {{ post.status }}
       {% endif %}
     </li>
   {% endfor %}
