@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-This is Tang Zichen's web homepage!
+My name is Tang Zichen(汤子宸), an MPhil student in Data Science and Analytics(DSA) at The Hong Kong University of Science and Technology (Guangzhou). Under the supervision of Prof. Xiaowen Chu, my research explores MLsys and Federated Learning. Before that, I obtained a Bachelor's degree in Engineering in Computer Science(BEng in COMP) from the Hong Kong University of Science and Technology(HKUST) with a double major in Mathematics.
 
 A data-driven personal website
 ======
@@ -15,8 +15,3 @@ Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you se
 
 
 **Markdown generator**
-
-
-
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
