@@ -3,6 +3,6 @@ title: "Bandwidth-Aware and Overlap-Weighted Compression for Communication-Effic
 authors: "Z. Tang, J. Huang, R. Yan, Y. Wang, Z. Tang, S. Shi, A. Zhou, X. Chu"
 date: 2024-08
 venue: "ICPP'24"
-status: ""
+status: "Published"
 ---
 Optional abstract or additional text goes here.
