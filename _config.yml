@@ -12,7 +12,7 @@ title                    : "Tang Zichen"
 title_separator          : "-"
 name                     : &name "Tang Zichen"
 description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://trl730109.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "trl730109/trl730109.github.io"
 
@@ -27,11 +27,11 @@ author:
   bio              : "MPhil student as DSA in HKUST(GZ)"
   location         : "Guangzhou, China"
   employer         : "The Hong Kong University of Science and Technology (Guangzhou)"
-  uri              : # URL
+  uri              : "https://trl730109.github.io"
   email            : "ztangap@connect.hkust-gz.edu.cn" 
 
   # Academic websites
-  arxiv            : # URL - Update with the correct link to your profile
+  # arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?user=i4BgXlsAAAAJ&hl=zh-CN"
   # impactstory      : # URL
   # orcid            : "http://orcid.org/yourorcidurl"
