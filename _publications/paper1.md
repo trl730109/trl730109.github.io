@@ -1,7 +1,8 @@
 ---
-title: "Pruner-Zero: Evolving Symbolic Pruning Metric From Scratch for Large Language Models"
-authors: "P. Dong, L. Li, Z. Tang, X. Liu, X. Pan, Q. Wang, X. Chu"
-date: 2024-07-01
-venue: "ICML 2024"
+title: "Bandwidth-Aware and Overlap-Weighted Compression for Communication-Efficient Federated Learning"
+authors: "Z. Tang, J. Huang, R. Yan, Y. Wang, Z. Tang, S. Shi, A. Zhou, X. Chu"
+date: 2024-08
+venue: "ICPP'24"
+status: ""
 ---
 Optional abstract or additional text goes here.
