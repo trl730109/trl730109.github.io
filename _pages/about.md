@@ -6,26 +6,19 @@ redirect_from:
   - /about.html
 ---
 
-My name is Tang Zichen (汤子宸), an MPhil student in Data Science and Analytics (DSA) at The Hong Kong University of Science and Technology (Guangzhou). Under the supervision of Prof. Xiaowen Chu, my research explores MLsys and Federated Learning.
+My name is Tang Zichen (汤子宸), an MPhil student in Data Science and Analytics (DSA) at The Hong Kong University of Science and Technology (Guangzhou). Under the supervision of Prof. Xiaowen Chu and Prof. Sihong Xie, my research explores Distributed ML Systems and Federated Learning.
 
-Before that, I obtained a Bachelor's degree in Engineering in Computer Science (BEng in COMP) from the Hong Kong University of Science and Technology (HKUST) with a double major in Mathematics.
+Before that, I obtained a Bachelor of Engineering in Computer Science (BEng in COMP) from The Hong Kong University of Science and Technology (HKUST) with a double major in Mathematics.
 
 ## Education {#education}
-- **MPhil in Data Science and Analytics**, HKUST (Guangzhou), 2023.09 - present
-- **BEng in Computer Science with a double major in Mathematics**, HKUST, 2019.09 - 2023.06
-
-## CV {#cv}
-### Education
 - **2023.09 - present**: MPhil student in Data Science and Analytics (DSA) at The Hong Kong University of Science and Technology (Guangzhou)
 - **2019.09 - 2023.06**: Bachelor's degree in Computer Science with a double major in Mathematics from the Hong Kong University of Science and Technology (HKUST)
 
-### Skills
-- **Programming**: Python, Java, C++
-- **Machine Learning**: TensorFlow, PyTorch
-- **Distributed Systems**: LocalSGD, Federated Learning
+## CV {#cv}
+My CV in PDF format can be downloaded [here](/files/cv.pdf).
 
-### Awards
-- **Outstanding Youth League Member**, Shanghai University of Finance and Economics
+### Awards {#award}
+- **Reaching Out Award**, HKSAR Government Scholarship Fund
 
 ### Publications {#publications}
 {% if site.author.googlescholar %}
