@@ -12,7 +12,13 @@ Before that, I obtained a Bachelor of Engineering in Computer Science (BEng in C
 
 ## Education {#education}
 - **2023.09 - present**: MPhil student in Data Science and Analytics (DSA) at The Hong Kong University of Science and Technology (Guangzhou)
+  - Supervisor: Prof. Xiaowen Chu, Prof. Sihong Xie (Co-supervisor)
+- **2022.02 - 2022.06**: Exchange student at the School of Computing, Korea Advanced Institute of Science and Technology (KAIST)
 - **2019.09 - 2023.06**: Bachelor's degree in Computer Science with a double major in Mathematics from the Hong Kong University of Science and Technology (HKUST)
+  
+## Language Proficiency
+- **TOEFL**: 105
+- **GRE**: 324 (Verbal:154, Quant: 170, Writing: 3.5)
 
 ## CV {#cv}
 My CV in PDF format can be downloaded [here](/files/CV_PhD_TANG_Zichen.pdf).
