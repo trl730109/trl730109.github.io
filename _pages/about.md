@@ -15,7 +15,7 @@ Before that, I obtained a Bachelor of Engineering in Computer Science (BEng in C
 - **2019.09 - 2023.06**: Bachelor's degree in Computer Science with a double major in Mathematics from the Hong Kong University of Science and Technology (HKUST)
 
 ## CV {#cv}
-My CV in PDF format can be downloaded [here](/files/cv.pdf).
+My CV in PDF format can be downloaded [here](/files/CV_PhD_TANG_Zichen.pdf).
 
 ### Awards {#award}
 - **Reaching Out Award**, HKSAR Government Scholarship Fund
