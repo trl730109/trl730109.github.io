@@ -32,15 +32,9 @@ My CV in PDF format can be downloaded [here](/files/CV_PhD_TANG_Zichen.pdf).
 {% endif %}
 
 <ul>
-  {% for post in site.publications reversed %}
-    <li>
-      {{ post.authors | replace: "Zichen Tang", "**Zichen Tang**" | markdownify }}. 
-      <em>{{ post.title }}</em>.
-      {% if post.status == "Published" %}
-        In {{ post.venue }} ({{ post.status }}), {{ post.date | date: "%Y-%m-%d" }}.
-      {% else %}
-        {{ post.venue }} - {{ post.status }}.
-      {% endif %}
-    </li>
-  {% endfor %}
+  <li>
+    **Z. TangZ**, J. Huang, R. Yan, Y. Wang, Z. Tang, S. Shi, A. Zhou, X. Chu. 
+    <em>Bandwidth-Aware and Overlap-Weighted Compression for Communication-Efficient Federated Learning</em>.
+    In ICPP'24 (Published), 2024-08-12.
+  </li>
 </ul>
