@@ -1,6 +1,6 @@
 ---
 title: "Bandwidth-Aware and Overlap-Weighted Compression for Communication-Efficient Federated Learning"
-authors: "Zichen Tang, J. Huang, R. Yan, Y. Wang, Z. Tang, S. Shi, A. Zhou, X. Chu"
+authors: "**Z. Tang**, J. Huang, R. Yan, Y. Wang, Z. Tang, S. Shi, A. Zhou, X. Chu"
 date: 2024-08-12
 venue: "ICPP'24"
 status: "Published"
