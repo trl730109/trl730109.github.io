@@ -27,9 +27,9 @@ My CV in PDF format can be downloaded [here](/files/CV_PhD_TANG_Zichen.pdf).
 - **Reaching Out Award**, HKSAR Government Scholarship Fund
 
 ## Publications {#publications}
-- **Z. Tang**, J. Huang, R. Yan, Y. Wang, Z. Tang, S. Shi, A. Zhou, X. Chu. _Bandwidth-Aware and Overlap-Weighted Compression for Communication-Efficient Federated Learning_. In ICPP'24 (Published), 2024-08-12.
-
-
 {% if site.author.googlescholar %}
   <div class="wordwrap">You can also find my articles on <a href="{{ site.author.googlescholar }}">my Google Scholar profile</a>.</div>
 {% endif %}
+
+- **Z. Tang**, J. Huang, R. Yan, Y. Wang, Z. Tang, S. Shi, A. Zhou, X. Chu. _Bandwidth-Aware and Overlap-Weighted Compression for Communication-Efficient Federated Learning_. In ICPP'24 (Published), 2024-08-12.
+
