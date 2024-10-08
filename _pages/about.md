@@ -33,12 +33,14 @@ My CV in PDF format can be downloaded [here](/files/CV_PhD_TANG_Zichen.pdf).
 
 <ul>
   {% for post in site.publications reversed %}
-    <li>{{ post.authors }}. <em>{{ post.title }}</em>. 
-    {% if post.status == "Published" %}
-      In {{ post.venue }} ({{ post.status }}), {{ post.date | date: "%Y-%m-%d" }}.
-    {% else %}
-      {{ post.venue }} - {{ post.status }}.
-    {% endif %}
+    <li>
+      {{ post.authors | replace: "Zichen Tang", "**Zichen Tang**" | markdownify }}. 
+      <em>{{ post.title }}</em>.
+      {% if post.status == "Published" %}
+        In {{ post.venue }} ({{ post.status }}), {{ post.date | date: "%Y-%m-%d" }}.
+      {% else %}
+        {{ post.venue }} - {{ post.status }}.
+      {% endif %}
     </li>
   {% endfor %}
 </ul>
