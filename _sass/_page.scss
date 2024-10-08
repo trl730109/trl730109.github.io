@@ -5,9 +5,9 @@
 #main {
   @include container;
   @include clearfix;
-  margin-top: 2em;
+  margin-top: 0em;
   padding-left: 1em;
-  padding-right: 0.2em;
+  padding-right: 0em;
   animation: intro 0.3s both;
   animation-delay: 0.35s;
 
@@ -53,6 +53,7 @@
   h2 {
     padding-bottom: 0.5em;
     border-bottom: 1px solid $border-color;
+    font-size: 1.25em;
   }
 
   p, li, dl {
@@ -85,13 +86,13 @@
   }
 
   dt {
-    margin-top: 1em;
+    margin-top: 0em;
     font-family: $sans-serif;
     font-weight: bold;
   }
 
   dd {
-    margin-left: 1em;
+    margin-left: 0em;
     font-family: $sans-serif;
     font-size: $type-size-6;
   }
@@ -131,7 +132,7 @@
 
     .wrapper {
       padding-left: 1em;
-      padding-right: 1em;
+      padding-right: 0em;
 
       @include breakpoint($x-large) {
         max-width: $x-large;
