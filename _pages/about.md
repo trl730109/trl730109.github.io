@@ -32,4 +32,6 @@ My CV in PDF format can be downloaded [here](/files/CV_PhD_TANG_Zichen.pdf).
 {% endif %}
 
 - **Z. Tang**, J. Huang, R. Yan, Y. Wang, Z. Tang, S. Shi, A. Zhou, X. Chu. _Bandwidth-Aware and Overlap-Weighted Compression for Communication-Efficient Federated Learning_. In ICPP'24 (Published), 2024-08-12.
-
+- Z. Tang*, **Z. Tang**\*, J. Huang, R. Yan, Y. Wang, A. Zhou, S. Shi, B. Li, X. Chu. _DreamDDP: Accelerating Distributed Training with Layer-wise Partial Synchronization_. In INFOCOM'25 (Under Review). * represents equal contribution.
+- J. Huang, **Z. Tang**, R. Yan, Y. Feng, Z. Li, Z. Tang, A. Zhou, Y. Liang, X. Chu. _Stale Information Matters: Efficiently Tackling Data Heterogeneity in Asynchronous Federated Learning with Model Calibration_. In INFOCOM'25 (Under Review).
+- Z. Tang, J. Huang, **Z. Tang**, X. Kang, Y. Wang, P. Dong, S. Shi, X. Chu, B. Li. _Capturing and Mitigating Gradient Aggregation Errors for Fault-Tolerant Distributed Training_. In ICLR'25 (Under Review).
