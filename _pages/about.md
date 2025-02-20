@@ -21,7 +21,7 @@ Before that, I obtained a Bachelor of Engineering in Computer Science (BEng in C
 - **GRE**: 324 (Verbal:154, Quant: 170, Writing: 3.5)
 
 ## CV {#cv}
-My CV in PDF format can be downloaded [here](/files/CV_PhD_TANG_Zichen.pdf).
+My CV in PDF format can be downloaded [here](/files/CV_TANG_Zichen.pdf).
 
 ### Awards {#award}
 - **Reaching Out Award**, HKSAR Government Scholarship Fund
@@ -32,9 +32,11 @@ My CV in PDF format can be downloaded [here](/files/CV_PhD_TANG_Zichen.pdf).
 {% endif %}
 
 - **Z. Tang**, J. Huang, R. Yan, Y. Wang, Z. Tang, S. Shi, A. Zhou, X. Chu. _Bandwidth-Aware and Overlap-Weighted Compression for Communication-Efficient Federated Learning_. In ICPP'24 (**Published**), 2024-08-12.
-- Z. Tang*, **Z. Tang**\*, J. Huang, R. Yan, Y. Wang, A. Zhou, S. Shi, B. Li, X. Chu. _DreamDDP: Accelerating Distributed Training with Layer-wise Partial Synchronization_. In INFOCOM'25 (**Under Review**). * represents equal contribution.
-- J. Huang, **Z. Tang**, R. Yan, Y. Feng, Z. Li, Z. Tang, A. Zhou, Y. Liang, X. Chu. _Stale Information Matters: Efficiently Tackling Data Heterogeneity in Asynchronous Federated Learning with Model Calibration_. In INFOCOM'25 (**Under Review**).
-- Z. Tang, J. Huang, **Z. Tang**, X. Kang, Y. Wang, P. Dong, S. Shi, X. Chu, B. Li. _Capturing and Mitigating Gradient Aggregation Errors for Fault-Tolerant Distributed Training_. In ICLR'25 (**Under Review**).
+- Z. Tang*, **Z. Tang**\*, J. Huang, R. Yan, Y. Wang, A. Zhou, S. Shi, B. Li, X. Chu. _DreamDDP: Accelerating Distributed Training with Layer-wise Partial Synchronization_. In USENIX ATC'25 (**Under Review**). * represents equal contribution.
+- **Z. Tang**，Z. Tang， G. Pan, B. Liu, K. Lai, X. Chu, B. Li. _Ghost in the Cloud: Your Geo-Distributed Large Language Models Training is
+Easily Manipulated_. In USENIX Security'25 (**Under Review**)
+- J. Huang, **Z. Tang**, R. Yan, Y. Feng, Z. Li, Z. Tang, A. Zhou, Y. Liang, X. Chu. _Stale Information Matters: Efficiently Tackling Data Heterogeneity in Asynchronous Federated Learning with Model Calibration_. In ICDCS'25 (**Under Review**).
+- Z. Tang, J. Huang, **Z. Tang**, X. Kang, Y. Wang, P. Dong, S. Shi, X. Chu, B. Li. _Capturing and Mitigating Gradient Aggregation Errors for Fault-Tolerant Distributed Training_. In ICML'25 (**Under Review**).
 
 ## Technical Skills
 Python, Pytorch, Horovod, Pytorch Distributed.
