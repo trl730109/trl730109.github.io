@@ -8,14 +8,14 @@
 - date: "2026-05"
   content: "Paper *Capturing and Mitigating Gradient Aggregation Errors for Fault-Tolerant Distributed Training* accepted at **ICML 2026**."
 
-- date: "2026-04"
-  content: "Paper *Ghost in the Cloud: Your Geo-Distributed LLM Training is Easily Manipulated* accepted at **ICLR 2026**."
-
 - date: "2026-03"
   content: "Preprint released: *[Is Your LLM-as-a-Recommender Agent Trustable? LLMs' Recommendation is Easily Hacked by Biases (Preferences)](https://arxiv.org/abs/2603.17417)*."
 
 - date: "2026-02"
   content: "Started TAing **COMP3511 (Operating Systems)** at HKUST."
+
+- date: "2026-01"
+  content: "Paper *Ghost in the Cloud: Your Geo-Distributed LLM Training is Easily Manipulated* accepted at **ICLR 2026**."
 
 - date: "2026-01"
   content: "Paper *DreamDDP: Accelerating Data Parallel Distributed LLM Training with Layer-wise Scheduled Partial Synchronization* accepted at **MLSys 2026**."
