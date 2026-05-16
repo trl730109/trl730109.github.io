@@ -18,6 +18,15 @@ layout: default
     <a href="{{ site.author.cv_pdf | relative_url }}">cv (pdf)</a>
   </section>
 
+  {% if site.author.research_interests and site.author.research_interests.size > 0 %}
+  <section class="home-section">
+    <h2>Research</h2>
+    <p class="home-interests">
+      {% for kw in site.author.research_interests %}{{ kw }}{% unless forloop.last %} · {% endunless %}{% endfor %}
+    </p>
+  </section>
+  {% endif %}
+
   {% if site.data.news and site.data.news.size > 0 %}
   <section class="home-section">
     <h2>News</h2>

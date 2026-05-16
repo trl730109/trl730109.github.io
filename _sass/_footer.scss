@@ -4,14 +4,9 @@
   margin: 0 auto;
   padding: 40px $gutter 60px;
   border-top: 1px solid $c-rule;
-  font-size: 14px;
+  font-size: 13.5px;
   color: $c-fg-muted;
   font-family: $font-mono;
   letter-spacing: 0.02em;
-}
-.footer-nav {
-  margin-bottom: 0.6em;
-  a { color: $c-fg-muted; }
-  a:hover { color: $c-link; }
 }
 .footer-meta { margin: 0; }

@@ -18,11 +18,11 @@ body {
 .container {
   max-width: $content-w;
   margin: 0 auto;
-  padding: 80px $gutter 60px;
+  padding: 36px $gutter 60px;
 }
 
 @media (max-width: 720px) {
-  .container { padding: 40px $gutter 40px; }
+  .container { padding: 24px $gutter 40px; }
   body { font-size: 16.5px; }
 }
 

@@ -17,6 +17,10 @@ author:
   github:         "trl730109"
   googlescholar:  "https://scholar.google.com/citations?user=i4BgXlsAAAAJ&hl=en"
   cv_pdf:         "/files/CV_TANG_Zichen.pdf"
+  research_interests:
+    - "Federated / Distributed Training"
+    - "Data-centric LLM Training"
+    - "LLM Safety"
 
 collections:
   publications:

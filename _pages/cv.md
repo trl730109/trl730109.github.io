@@ -50,7 +50,7 @@ subtitle: "A condensed view; full PDF below."
   <div class="cv-date">Spring 2026</div>
   <div class="cv-body">
     <div class="cv-title">COMP3511 — Operating Systems, Teaching Assistant</div>
-    <div class="cv-meta">HKUST · Programming Assignments grading</div>
+    <div class="cv-meta">HKUST</div>
   </div>
 </div>
 </section>

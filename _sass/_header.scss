@@ -1,0 +1,30 @@
+// ──── Top site header / nav ─────────────────────────────────────────────────
+.site-header {
+  max-width: $content-w;
+  margin: 0 auto;
+  padding: 28px $gutter 0;
+}
+
+.site-nav {
+  text-align: right;
+  font-family: $font-mono;
+  font-size: 13.5px;
+  letter-spacing: 0.04em;
+  color: $c-fg-muted;
+
+  a {
+    color: $c-fg-muted;
+    padding: 0 2px;
+  }
+  a:hover, a:focus {
+    color: $c-link;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+  }
+}
+
+@media (max-width: 540px) {
+  .site-header { padding-top: 18px; }
+  .site-nav { font-size: 12.5px; text-align: left; }
+}
