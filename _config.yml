@@ -1,6 +1,6 @@
 title:            "Zichen Tang"
 tagline:          "First-year PhD, HKUST CSE"
-description:      "Personal homepage of Zichen Tang (汤子宸), first-year PhD student in Computer Science and Engineering at HKUST, working on data-centric approaches to large language models."
+description:      "Personal homepage of Zichen Tang, first-year PhD student in Computer Science and Engineering at HKUST, working on data-centric approaches to large language models."
 url:              "https://trl730109.github.io"
 baseurl:          ""
 repository:       "trl730109/trl730109.github.io"
@@ -9,7 +9,6 @@ lang:             "en"
 
 author:
   name:           "Zichen Tang"
-  name_zh:        "汤子宸"
   role:           "First-year PhD, Computer Science and Engineering"
   affiliation:    "Hong Kong University of Science and Technology"
   affiliation_short: "HKUST"

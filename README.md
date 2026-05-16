@@ -1,6 +1,6 @@
 # trl730109.github.io
 
-Personal homepage of Zichen Tang (汤子宸). Built with Jekyll using a hand-written minimal layout (no themes, no `academicpages`).
+Personal homepage of Zichen Tang. Built with Jekyll using a hand-written minimal layout (no themes, no `academicpages`).
 
 ## Running locally
 
