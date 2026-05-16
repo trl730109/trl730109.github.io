@@ -11,7 +11,7 @@ subtitle: "A condensed view; full PDF below."
 <h2>Education</h2>
 
 <div class="cv-entry">
-  <div class="cv-date">2025.12 – </div>
+  <div class="cv-date">2025.09 – </div>
   <div class="cv-body">
     <div class="cv-title">PhD, Computer Science and Engineering</div>
     <div class="cv-meta">Hong Kong University of Science and Technology · Advisor: TODO</div>

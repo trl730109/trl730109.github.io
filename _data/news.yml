@@ -17,8 +17,8 @@
 - date: "2026-02"
   content: "Started TAing **COMP3511 (Operating Systems)** at HKUST."
 
-- date: "2025-12"
-  content: "Began my PhD in Computer Science and Engineering at HKUST. [TODO confirm month]"
+- date: "2026-01"
+  content: "Paper *DreamDDP: Accelerating Data Parallel Distributed LLM Training with Layer-wise Scheduled Partial Synchronization* accepted at **MLSys 2026**."
 
-- date: "2025-02"
-  content: "Preprint released: *[DreamDDP: Accelerating Data Parallel Distributed LLM Training with Layer-wise Scheduled Partial Synchronization](https://arxiv.org/abs/2502.11058)*."
+- date: "2025-09"
+  content: "Began my PhD in Computer Science and Engineering at HKUST."
