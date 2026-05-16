@@ -14,7 +14,7 @@ subtitle: "A condensed view; full PDF below."
   <div class="cv-date">2025.09 – </div>
   <div class="cv-body">
     <div class="cv-title">PhD, Computer Science and Engineering</div>
-    <div class="cv-meta">Hong Kong University of Science and Technology · Advisor: TODO</div>
+    <div class="cv-meta">Hong Kong University of Science and Technology · Advisor: Prof. Bo Li</div>
   </div>
 </div>
 
