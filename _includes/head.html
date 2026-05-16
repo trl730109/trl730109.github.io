@@ -24,4 +24,29 @@
 
   {% feed_meta %}
   {% seo title=false %}
+
+  {%- comment -%} Person schema — the strongest signal for "search my name" queries. {%- endcomment -%}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "{{ site.author.name }}",
+    "url": "{{ site.url }}{{ site.baseurl }}/",
+    "image": "{{ site.url }}{{ site.baseurl }}/images/avatar.png",
+    "jobTitle": "PhD Student in Computer Science and Engineering",
+    "worksFor": {
+      "@type": "CollegeOrUniversity",
+      "name": "Hong Kong University of Science and Technology",
+      "url": "https://hkust.edu.hk/"
+    },
+    "alumniOf": [
+      { "@type": "CollegeOrUniversity", "name": "Hong Kong University of Science and Technology (Guangzhou)" },
+      { "@type": "CollegeOrUniversity", "name": "Hong Kong University of Science and Technology" }
+    ],
+    "sameAs": [
+      "{{ site.author.googlescholar }}",
+      "https://github.com/{{ site.author.github }}"
+    ]
+  }
+  </script>
 </head>
