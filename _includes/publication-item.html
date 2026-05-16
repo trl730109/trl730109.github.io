@@ -1,0 +1,17 @@
+{% comment %}
+  Renders one publication entry given a `pub` parameter.
+  Front-matter fields recognized on a publication file:
+    title, authors (markdown — bold your own name with **…**), venue, year,
+    status, note, links (list of {label, url})
+{% endcomment %}
+<li class="pub-item">
+  <div class="pub-title">{{ pub.title }}</div>
+  <div class="pub-authors">{{ pub.authors | markdownify | remove: '<p>' | remove: '</p>' }}</div>
+  <div class="pub-meta">
+    <span class="pub-venue">{{ pub.venue }}</span>{% if pub.year %} · <span class="pub-year">{{ pub.year }}</span>{% endif %}{% if pub.status %} · <span class="pub-status pub-status--{{ pub.status | downcase | replace: ' ', '-' }}">{{ pub.status }}</span>{% endif %}
+    {% if pub.links and pub.links.size > 0 %}
+      {% for link in pub.links %} · <a href="{{ link.url }}">{{ link.label }}</a>{% endfor %}
+    {% endif %}
+  </div>
+  {% if pub.note %}<div class="pub-note">{{ pub.note }}</div>{% endif %}
+</li>

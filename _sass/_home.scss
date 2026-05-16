@@ -1,0 +1,73 @@
+// ──── Home page ─────────────────────────────────────────────────────────────
+.home-header {
+  margin-bottom: 1.4em;
+}
+
+.home-name {
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  line-height: 1.15;
+  margin-bottom: 0.25em;
+}
+
+.home-name-zh {
+  font-weight: 400;
+  color: $c-fg-muted;
+  font-size: 0.7em;
+  margin-left: 0.4em;
+  letter-spacing: 0;
+}
+
+.home-role {
+  color: $c-fg-muted;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.home-bio {
+  margin-top: 1.6em;
+  p { margin-bottom: 0.9em; }
+}
+
+.home-links {
+  font-size: 15px;
+  color: $c-fg-muted;
+  margin-top: 0.4em;
+  a { color: $c-link; }
+}
+
+.home-section {
+  margin-top: 2.4em;
+  h2 { margin-top: 0; padding-top: 2.4em; }
+}
+
+// News
+.news-list {
+  margin: 0;
+  font-size: 16px;
+  li {
+    display: grid;
+    grid-template-columns: 92px 1fr;
+    gap: 0 16px;
+    padding: 0.35em 0;
+    align-items: baseline;
+  }
+}
+.news-date {
+  font-family: $font-mono;
+  font-size: 13px;
+  color: $c-fg-muted;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+.news-body { display: inline; }
+
+@media (max-width: 540px) {
+  .news-list li {
+    grid-template-columns: 1fr;
+    padding: 0.6em 0;
+  }
+  .news-date { font-size: 12.5px; margin-bottom: 0.2em; }
+}

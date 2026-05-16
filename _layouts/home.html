@@ -1,0 +1,47 @@
+---
+layout: default
+---
+<article class="home">
+  <header class="home-header">
+    <h1 class="home-name">{{ site.author.name }} <span class="home-name-zh">{{ site.author.name_zh }}</span></h1>
+    <p class="home-role">{{ site.author.role }}<br>{{ site.author.affiliation }}</p>
+  </header>
+
+  <section class="home-bio">
+    {{ content }}
+  </section>
+
+  <section class="home-links">
+    <a href="mailto:{{ site.author.email }}">email</a> ·
+    <a href="{{ site.author.googlescholar }}">google scholar</a> ·
+    <a href="https://github.com/{{ site.author.github }}">github</a> ·
+    <a href="{{ site.author.cv_pdf | relative_url }}">cv (pdf)</a>
+  </section>
+
+  {% if site.data.news and site.data.news.size > 0 %}
+  <section class="home-section">
+    <h2>News</h2>
+    <ul class="news-list">
+      {% for item in site.data.news %}
+      <li>
+        <span class="news-date">{{ item.date }}</span>
+        <span class="news-body">{{ item.content | markdownify | remove: '<p>' | remove: '</p>' }}</span>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+
+  {% assign selected = site.publications | where: "selected", true | sort: "date" | reverse %}
+  {% if selected.size > 0 %}
+  <section class="home-section">
+    <h2>Selected Publications</h2>
+    <ol class="pub-list">
+      {% for pub in selected %}
+        {% include publication-item.html pub=pub %}
+      {% endfor %}
+    </ol>
+    <p class="pub-more"><a href="{{ '/publications/' | relative_url }}">→ full publication list</a></p>
+  </section>
+  {% endif %}
+</article>

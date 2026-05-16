@@ -1,0 +1,33 @@
+// ──── Design tokens ────────────────────────────────────────────────────────
+// Type
+$font-serif:    Charter, "Source Serif 4", "Source Serif Pro", "Iowan Old Style", "Apple Garamond", Baskerville, "Times New Roman", "Droid Serif", Times, "Liberation Serif", serif;
+$font-mono:     ui-monospace, "SF Mono", Menlo, "JetBrains Mono", Consolas, "Liberation Mono", monospace;
+$font-sans:     -apple-system, BlinkMacSystemFont, "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+$fs-base:       17px;
+$lh-base:       1.62;
+$fs-small:      14.5px;
+$fs-h1:         28px;
+$fs-h2:         18px;
+$fs-h3:         16px;
+
+// Layout
+$content-w:     680px;
+$gutter:        24px;
+
+// Light palette
+$c-bg:          #fdfdfc;
+$c-fg:          #1a1a1a;
+$c-fg-muted:    #6a6a68;
+$c-rule:        #d9d6cf;
+$c-link:        #0c3a8a;
+$c-link-hover:  #0c3a8a;
+$c-accent:      #8a3a00;  // for status pills like "Under Review"
+
+// Dark palette
+$d-bg:          #111110;
+$d-fg:          #e8e6e1;
+$d-fg-muted:    #9a958d;
+$d-rule:        #2a2826;
+$d-link:        #9bb4ff;
+$d-accent:      #f0a86a;

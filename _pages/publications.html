@@ -1,23 +1,26 @@
 ---
-layout: archive
-title: "Publications"
 permalink: /publications/
-author_profile: true
+layout: page
+title: "Publications"
+subtitle: "Listed reverse-chronologically. * denotes equal contribution."
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{ site.author.googlescholar }}">my Google Scholar profile</a>.</div>
-{% endif %}
+{% assign all = site.publications | sort: "date" | reverse %}
+{% assign years = all | map: "year" | uniq %}
 
-<ul>
-  {% for post in site.publications reversed %}
-    <li>
-      {{ post.authors }}. <em>{{ post.title }}</em>.
-      {% if post.status == "Accepted" %}
-        In {{ post.venue }} ({{ post.status }}).
-      {% else %}
-        {{ post.venue }} - {{ post.status }}
-      {% endif %}
-    </li>
-  {% endfor %}
-</ul>
+{% for year in years %}
+  <div class="pub-year-group">
+    <h3 class="pub-year-heading">{{ year }}</h3>
+    <ol class="pub-list">
+      {% assign year_pubs = all | where: "year", year | sort: "date" | reverse %}
+      {% for pub in year_pubs %}
+        {% include publication-item.html pub=pub %}
+      {% endfor %}
+    </ol>
+  </div>
+{% endfor %}
+
+<p style="margin-top: 2.5em; font-size: 14.5px; color: #6a6a68;">
+  Full list also on
+  <a href="{{ site.author.googlescholar }}">Google Scholar</a>.
+</p>

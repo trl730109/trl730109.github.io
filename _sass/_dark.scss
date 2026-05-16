@@ -1,0 +1,28 @@
+// ──── Dark mode (follows OS) ────────────────────────────────────────────────
+@media (prefers-color-scheme: dark) {
+  body {
+    background: $d-bg;
+    color: $d-fg;
+  }
+  h1, h2, h3, strong { color: $d-fg; }
+  h2 { color: $d-fg-muted; border-top-color: $d-rule; }
+  a { color: $d-link; }
+  hr, blockquote, .pub-item + .pub-item,
+  .cv-entry, .teach-item, .site-footer { border-color: $d-rule; }
+  code, pre { background: rgba(255,255,255,0.06); }
+  .home-name-zh, .home-role, .home-links,
+  .news-date, .pub-meta, .pub-note,
+  .page-subtitle, .cv-date, .cv-body .cv-meta,
+  .teach-meta, .pub-year-heading, .pub-more a,
+  .site-footer, .footer-nav a, .footer-meta,
+  .pub-item::before { color: $d-fg-muted; }
+
+  .pub-status--under-review,
+  .pub-status--in-submission,
+  .pub-status--in-preparation { color: $d-accent; }
+  .pub-status--published,
+  .pub-status--accepted,
+  .pub-status--to-appear { color: #88c488; }
+
+  ::selection { background: rgba(155, 180, 255, 0.25); }
+}

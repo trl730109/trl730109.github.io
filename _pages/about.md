@@ -1,42 +1,10 @@
 ---
 permalink: /
-author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
+layout: home
+title: ""
+description: "Personal homepage of Zichen Tang (汤子宸), first-year PhD in CSE at HKUST, working on data-centric approaches to large language models."
 ---
 
-My name is Tang Zichen (汤子宸), an MPhil student in Data Science and Analytics (DSA) at The Hong Kong University of Science and Technology (Guangzhou). Under the supervision of Prof. Xiaowen Chu and Prof. Sihong Xie, my research explores Distributed ML Systems and Federated Learning.
+I am a first-year PhD student in Computer Science and Engineering at the Hong Kong University of Science and Technology, advised by [TODO: advisor name]. My research takes a *data-centric* view of large language models: how the data we use to pre-train, fine-tune and align them quietly determines what the models will and will not do. I am currently working on three threads — efficient data synthesis for scaling small-model alignment, adversarial signals injected through training pipelines (jailbreak-via-trigger, bias attack), and knowledge-injection rewriting.
 
-Before that, I obtained a Bachelor of Engineering in Computer Science (BEng in COMP) from The Hong Kong University of Science and Technology (HKUST) with a double major in Mathematics.
-
-## Education {#education}
-- **2023.09 - present**: MPhil student in Data Science and Analytics (DSA) at The Hong Kong University of Science and Technology (Guangzhou)
-  - Supervisor: Prof. Xiaowen Chu, Prof. Sihong Xie (Co-supervisor)
-- **2022.02 - 2022.06**: Exchange student at the School of Computing, Korea Advanced Institute of Science and Technology (KAIST)
-- **2019.09 - 2023.06**: Bachelor's degree in Computer Science with a double major in Mathematics from the Hong Kong University of Science and Technology (HKUST)
-  
-## Language Proficiency
-- **TOEFL**: 105
-- **GRE**: 324 (Verbal:154, Quant: 170, Writing: 3.5)
-
-## CV {#cv}
-My CV in PDF format can be downloaded [here](/files/CV_TANG_Zichen.pdf).
-
-### Awards {#award}
-- **Reaching Out Award**, HKSAR Government Scholarship Fund
-
-## Publications {#publications}
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{ site.author.googlescholar }}">my Google Scholar profile</a>.</div>
-{% endif %}
-
-- **Z. Tang**, J. Huang, R. Yan, Y. Wang, Z. Tang, S. Shi, A. Zhou, X. Chu. _Bandwidth-Aware and Overlap-Weighted Compression for Communication-Efficient Federated Learning_. In ICPP'24 (**Published**), 2024-08-12.
-- Z. Tang*, **Z. Tang**\*, J. Huang, R. Yan, Y. Wang, A. Zhou, S. Shi, B. Li, X. Chu. _DreamDDP: Accelerating Distributed Training with Layer-wise Partial Synchronization_. In USENIX ATC'25 (**Under Review**). * represents equal contribution.
-- **Z. Tang**，Z. Tang， G. Pan, B. Liu, K. Lai, X. Chu, B. Li. _Ghost in the Cloud: Your Geo-Distributed Large Language Models Training is
-Easily Manipulated_. In USENIX Security'25 (**Under Review**)
-- J. Huang, **Z. Tang**, R. Yan, Y. Feng, Z. Li, Z. Tang, A. Zhou, Y. Liang, X. Chu. _Stale Information Matters: Efficiently Tackling Data Heterogeneity in Asynchronous Federated Learning with Model Calibration_. In ICDCS'25 (**Under Review**).
-- Z. Tang, J. Huang, **Z. Tang**, X. Kang, Y. Wang, P. Dong, S. Shi, X. Chu, B. Li. _Capturing and Mitigating Gradient Aggregation Errors for Fault-Tolerant Distributed Training_. In ICML'25 (**Under Review**).
-
-## Technical Skills
-Python, Pytorch, Horovod, Pytorch Distributed.
+Before HKUST, I completed an MPhil in Data Science and Analytics at HKUST (Guangzhou) under [Prof. Xiaowen Chu](https://chuxiaowen.net) and Prof. Sihong Xie, where I worked on communication-efficient distributed and federated learning. I received my BEng in Computer Science from HKUST with a double major in Mathematics.

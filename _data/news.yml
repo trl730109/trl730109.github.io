@@ -1,0 +1,16 @@
+# News items shown on the home page, newest first.
+# date: free-form short string (YYYY-MM is recommended for sorting visually).
+# content: one line, markdown supported (links, *emphasis*, etc.).
+
+- date: "2026-02"
+  content: "Started TAing **COMP3511 (Operating Systems)** at HKUST."
+
+- date: "2025-12"
+  content: "Began my PhD in Computer Science and Engineering at HKUST. [TODO confirm month]"
+
+- date: "2024-08"
+  content: "Paper *Bandwidth-Aware and Overlap-Weighted Compression for Communication-Efficient Federated Learning* presented at **ICPP'24**."
+
+# TODO: add recent paper acceptances / preprints / awards.
+# - date: "2026-04"
+#   content: "Paper X accepted at **NeurIPS 2026**."

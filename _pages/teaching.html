@@ -1,12 +1,22 @@
 ---
-layout: archive
-title: "Teaching"
 permalink: /teaching/
-author_profile: true
+layout: page
+title: "Teaching"
+subtitle: "Teaching assistantships and tutoring."
 ---
 
-{% include base_path %}
+{% assign all = site.teaching | sort: "date" | reverse %}
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+<ul class="teach-list">
+  {% for item in all %}
+    <li class="teach-item">
+      <div class="teach-title">{{ item.title }}</div>
+      <div class="teach-meta">
+        {{ item.role }}{% if item.term %} · {{ item.term }}{% endif %}{% if item.institution %} · {{ item.institution }}{% endif %}
+      </div>
+      {% if item.content and item.content != "" %}
+        <div class="teach-body">{{ item.content | markdownify }}</div>
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>
