@@ -56,6 +56,18 @@ subtitle: "A condensed view; full PDF below."
 </section>
 
 <section class="cv-section">
+<h2>Service</h2>
+
+<div class="cv-entry">
+  <div class="cv-date">2026</div>
+  <div class="cv-body">
+    <div class="cv-title">ICML 2026 — Gold Reviewer</div>
+    <div class="cv-meta">Recognized for high-quality reviewing.</div>
+  </div>
+</div>
+</section>
+
+<section class="cv-section">
 <h2>Awards</h2>
 
 <div class="cv-entry">
