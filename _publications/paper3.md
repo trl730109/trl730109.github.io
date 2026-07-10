@@ -6,7 +6,7 @@ year: 2026
 venue: "ICLR'26"
 status: "Accepted"
 teaser: "/images/pubs/cloudghost.png"
-teaser_alt: "Jailbroken model injected by a malicious client in geo-distributed training"
+teaser_alt: "Ghost in the Cloud overview: trigger-based jailbreak injection, two defenses, and the deployment attack"
 note: "* equal contribution"
 selected: true
 links: []   # TODO: add openreview/arxiv link when public

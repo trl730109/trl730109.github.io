@@ -6,7 +6,7 @@ year: 2026
 venue: "MLSys'26"
 status: "Accepted"
 teaser: "/images/pubs/dreamddp.png"
-teaser_alt: "DreamDDP layer-wise scheduled partial-synchronization timeline"
+teaser_alt: "DreamDDP system overview: profiler-driven schedule pipeline with layer-wise partial synchronization"
 note: "* equal contribution"
 selected: true
 links:

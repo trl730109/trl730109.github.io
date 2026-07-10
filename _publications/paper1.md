@@ -5,8 +5,8 @@ date: 2024-08-12
 year: 2024
 venue: "ICPP'24"
 status: "Published"
-teaser: "/images/pubs/opwa-fl.png"
-teaser_alt: "Overlap-weighted aggregation of compressed federated model parameters"
+teaser: "/images/pubs/icpp-overview.png"
+teaser_alt: "Per-round timeline: adaptive bandwidth-aware compression saves communication time over uniform compression"
 selected: true
 links:
   - { label: "arxiv", url: "https://arxiv.org/abs/2408.14736" }
