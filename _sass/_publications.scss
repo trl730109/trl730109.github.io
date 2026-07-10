@@ -7,8 +7,8 @@
 
 .pub-item {
   display: grid;
-  grid-template-columns: 224px 1fr;
-  column-gap: 22px;
+  grid-template-columns: 250px 1fr;
+  column-gap: 24px;
   align-items: start;
   padding: 1.15em 0;
   margin: 0;
@@ -17,25 +17,26 @@
 
 // Teaser card — fixed footprint so every row aligns into a tidy gallery.
 .pub-thumb {
-  width: 224px;
-  height: 140px;
+  width: 250px;
+  min-width: 0;
   box-sizing: border-box;
   border: 1px solid $c-rule;
   border-radius: 3px;
   background: #fff;
-  padding: 5px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding: 6px;
   overflow: hidden;
-  a { display: flex; width: 100%; height: 100%; align-items: center; justify-content: center; }
+  a { display: block; }
   img {
-    max-width: 100%;
-    max-height: 100%;
+    width: 100%;
+    height: auto;
     display: block;
   }
 }
 .pub-thumb--empty {
+  min-height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: repeating-linear-gradient(
     -45deg, transparent, transparent 6px, rgba(0,0,0,0.025) 6px, rgba(0,0,0,0.025) 7px
   );
@@ -156,12 +157,11 @@
 // Stack on narrow screens
 @media (max-width: 560px) {
   .pub-item {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
     row-gap: 0.75em;
     padding: 1.3em 0;
   }
   .pub-thumb {
     width: 100%;
-    height: 200px;
   }
 }
