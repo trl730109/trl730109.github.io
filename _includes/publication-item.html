@@ -2,16 +2,36 @@
   Renders one publication entry given a `pub` parameter.
   Front-matter fields recognized on a publication file:
     title, authors (markdown — bold your own name with **…**), venue, year,
-    status, note, links (list of {label, url})
+    status, note, teaser (path under /images/pubs/…), teaser_alt,
+    links (list of {label, url})
 {% endcomment %}
+{% assign primary = pub.links | first %}
 <li class="pub-item">
-  <div class="pub-title">{{ pub.title }}</div>
-  <div class="pub-authors">{{ pub.authors | markdownify | remove: '<p>' | remove: '</p>' }}</div>
-  <div class="pub-meta">
-    <span class="pub-venue">{{ pub.venue }}</span>{% if pub.year %} · <span class="pub-year">{{ pub.year }}</span>{% endif %}{% if pub.status %} · <span class="pub-status pub-status--{{ pub.status | downcase | replace: ' ', '-' }}">{{ pub.status }}</span>{% endif %}
-    {% if pub.links and pub.links.size > 0 %}
-      {% for link in pub.links %} · <a href="{{ link.url }}">{{ link.label }}</a>{% endfor %}
+  <div class="pub-thumb{% unless pub.teaser %} pub-thumb--empty{% endunless %}">
+    {% if pub.teaser %}
+      {% if primary %}<a href="{{ primary.url }}" aria-label="{{ pub.title }}">{% endif %}
+        <img src="{{ pub.teaser | relative_url }}" alt="{{ pub.teaser_alt | default: pub.title }}" loading="lazy">
+      {% if primary %}</a>{% endif %}
+    {% else %}
+      <span class="pub-thumb-fallback">{{ pub.venue }}</span>
     {% endif %}
   </div>
-  {% if pub.note %}<div class="pub-note">{{ pub.note }}</div>{% endif %}
+
+  <div class="pub-content">
+    <div class="pub-eyebrow">
+      <span class="pub-venue">{{ pub.venue }}</span>{% if pub.year %} · <span class="pub-year">{{ pub.year }}</span>{% endif %}{% if pub.status %} · <span class="pub-status pub-status--{{ pub.status | downcase | replace: ' ', '-' }}">{{ pub.status }}</span>{% endif %}
+    </div>
+
+    <div class="pub-title">{% if primary %}<a href="{{ primary.url }}">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}</div>
+
+    <div class="pub-authors">{{ pub.authors | markdownify | remove: '<p>' | remove: '</p>' }}</div>
+
+    {% if pub.note %}<div class="pub-note">{{ pub.note }}</div>{% endif %}
+
+    {% if pub.links and pub.links.size > 0 %}
+      <div class="pub-links">
+        {% for link in pub.links %}<a href="{{ link.url }}">{{ link.label }}</a>{% endfor %}
+      </div>
+    {% endif %}
+  </div>
 </li>

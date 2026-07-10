@@ -11,14 +11,29 @@
   .cv-entry, .teach-item, .site-footer { border-color: $d-rule; }
   code, pre { background: rgba(255,255,255,0.06); }
   .home-name-zh, .home-role, .home-links,
-  .news-date, .pub-meta, .pub-note,
+  .news-date, .pub-eyebrow, .pub-note, .pub-thumb-fallback,
   .page-subtitle, .cv-date, .cv-body .cv-meta,
   .teach-meta, .pub-year-heading, .pub-more a,
-  .site-footer, .footer-nav a, .footer-meta,
-  .pub-item::before { color: $d-fg-muted; }
+  .site-footer, .footer-nav a, .footer-meta { color: $d-fg-muted; }
+
+  .pub-venue { color: $d-fg; }
+
+  // Teaser cards stay light (paper figures are on white); just retint the frame.
+  .pub-thumb { border-color: $d-rule; }
+  .pub-thumb--empty {
+    background: repeating-linear-gradient(
+      -45deg, transparent, transparent 6px, rgba(255,255,255,0.04) 6px, rgba(255,255,255,0.04) 7px
+    );
+  }
+  .pub-links a { color: $d-link; border-color: $d-rule; }
+  .pub-links a:hover, .pub-links a:focus {
+    border-color: $d-link;
+    background: rgba(155, 180, 255, 0.08);
+  }
 
   .pub-status--under-review,
   .pub-status--in-submission,
+  .pub-status--preprint,
   .pub-status--in-preparation { color: $d-accent; }
   .pub-status--published,
   .pub-status--accepted,

@@ -5,6 +5,8 @@ date: 2026-03-22
 year: 2026
 venue: "arXiv preprint"
 status: "Preprint"
+teaser: "/images/pubs/selector-bias.png"
+teaser_alt: "Bias-injection pipeline evaluating reasoning vs. non-reasoning models"
 note: "* equal contribution"
 selected: true
 links:
