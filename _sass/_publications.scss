@@ -7,7 +7,7 @@
 
 .pub-item {
   display: grid;
-  grid-template-columns: 250px 1fr;
+  grid-template-columns: 290px 1fr;
   column-gap: 24px;
   align-items: start;
   padding: 1.15em 0;
@@ -17,7 +17,7 @@
 
 // Teaser card — fixed footprint so every row aligns into a tidy gallery.
 .pub-thumb {
-  width: 250px;
+  width: 290px;
   min-width: 0;
   box-sizing: border-box;
   border: 1px solid $c-rule;

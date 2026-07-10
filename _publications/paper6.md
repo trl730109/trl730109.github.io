@@ -6,7 +6,7 @@ year: 2026
 venue: "arXiv preprint"
 status: "Preprint"
 teaser: "/images/pubs/selector-bias.png"
-teaser_alt: "Bias-injection pipeline evaluating reasoning vs. non-reasoning models"
+teaser_alt: "Overview of the data-synthesis pipeline with quality calibration and bias evaluation"
 note: "* equal contribution"
 selected: true
 links:
