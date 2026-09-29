@@ -2,6 +2,12 @@
 # date: free-form short string (YYYY-MM is recommended).
 # content: one line, markdown supported.
 
+- date: "2026-09"
+  content: "Paper *BiasTrojan: LLM Judgers Are Easily Distorted by Few Hundreds of Contrastive Biased Training Data* accepted at **NeurIPS 2026** as a poster."
+
+- date: "2026-09"
+  content: "Paper *Is Your LLM-as-a-Recommender Agent Trustable? LLMs' Recommendation is Easily Hacked by Biases (Preferences)* accepted at the **NeurIPS 2026 Evaluations and Datasets Track** as a poster."
+
 - date: "2026-05"
   content: "Recognized as an **ICML 2026 Gold Reviewer**."
 

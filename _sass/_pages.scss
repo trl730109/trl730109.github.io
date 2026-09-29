@@ -1,8 +1,8 @@
 // ──── Generic page (CV, Publications, Teaching) ─────────────────────────────
 .page-header {
-  margin-bottom: 1.6em;
+  margin-bottom: 1.1em;
   h1 {
-    font-size: 26px;
+    font-size: 24px;
     font-weight: 600;
     letter-spacing: -0.01em;
   }
@@ -10,12 +10,12 @@
 .page-subtitle {
   color: $c-fg-muted;
   font-size: 15px;
-  margin-top: 0.4em;
+  margin-top: 0.25em;
 }
 
 // CV-like definition layout
-.cv-section { margin-top: 1.8em; }
-.cv-section h2 { margin-top: 0.6em; padding-top: 1.4em; }
+.cv-section { margin-top: 1.4em; }
+.cv-section h2 { margin-top: 0.4em; padding-top: 1em; }
 
 .cv-entry {
   display: grid;

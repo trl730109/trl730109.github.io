@@ -1,10 +1,10 @@
 // ──── Home page ─────────────────────────────────────────────────────────────
 .home-header {
-  margin-bottom: 1.4em;
+  margin-bottom: 1em;
 }
 
 .home-name {
-  font-size: 32px;
+  font-size: 29px;
   font-weight: 600;
   letter-spacing: -0.015em;
   line-height: 1.15;
@@ -21,31 +21,31 @@
 
 .home-role {
   color: $c-fg-muted;
-  font-size: 16px;
-  line-height: 1.5;
+  font-size: 15px;
+  line-height: 1.42;
   margin: 0;
 }
 
 .home-bio {
-  margin-top: 1.6em;
-  p { margin-bottom: 0.9em; }
+  margin-top: 1.15em;
+  p { margin-bottom: 0.65em; }
 }
 
 .home-links {
-  font-size: 15px;
+  font-size: 14px;
   color: $c-fg-muted;
   margin-top: 0.4em;
   a { color: $c-link; }
 }
 
 .home-section {
-  margin-top: 2.4em;
-  h2 { margin-top: 0; padding-top: 2.4em; }
+  margin-top: 1.45em;
+  h2 { margin-top: 0; padding-top: 1.15em; }
 }
 
 .home-interests {
-  font-size: 16px;
-  line-height: 1.5;
+  font-size: 15px;
+  line-height: 1.45;
   color: $c-fg;
   margin: 0;
 }
@@ -53,12 +53,12 @@
 // News
 .news-list {
   margin: 0;
-  font-size: 16px;
+  font-size: 15px;
   li {
     display: grid;
-    grid-template-columns: 92px 1fr;
-    gap: 0 16px;
-    padding: 0.35em 0;
+    grid-template-columns: 84px 1fr;
+    gap: 0 14px;
+    padding: 0.22em 0;
     align-items: baseline;
   }
 }
@@ -74,7 +74,7 @@
 @media (max-width: 540px) {
   .news-list li {
     grid-template-columns: 1fr;
-    padding: 0.6em 0;
+    padding: 0.42em 0;
   }
   .news-date { font-size: 12.5px; margin-bottom: 0.2em; }
 }
