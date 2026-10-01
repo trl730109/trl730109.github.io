@@ -47,9 +47,17 @@ subtitle: "A condensed view; full PDF below."
 <h2>Teaching</h2>
 
 <div class="cv-entry">
+  <div class="cv-date">Fall 2027</div>
+  <div class="cv-body">
+    <div class="cv-title">COMP 3511 — Operating Systems, Teaching Assistant</div>
+    <div class="cv-meta">HKUST</div>
+  </div>
+</div>
+
+<div class="cv-entry">
   <div class="cv-date">Spring 2026</div>
   <div class="cv-body">
-    <div class="cv-title">COMP3511 — Operating Systems, Teaching Assistant</div>
+    <div class="cv-title">COMP 3511 — Operating Systems, Teaching Assistant</div>
     <div class="cv-meta">HKUST</div>
   </div>
 </div>
