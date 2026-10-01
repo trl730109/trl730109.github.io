@@ -3,7 +3,7 @@ title: "Anchoring the Bridge Across Hops: Unlocking Latent Multi-Hop Reasoning u
 authors: "**Zichen Tang**, Zhenheng Tang, Yifan Hou, Hanwen Xing, Xinda Qi, Xiaowen Chu, Bo Li"
 date: 2026-10-01
 year: 2026
-venue: "CL4FMAgents @ NeurIPS'26"
+venue: "CL4FMAgents @ NeurIPS'26 Workshop"
 status: "Accepted"
 teaser: "/images/pubs/brace.png"
 teaser_alt: "Overview of latent multi-hop composition, knowledge-injection rewrites, BRACE, and explicit elicitation"
