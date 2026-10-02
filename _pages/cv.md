@@ -79,7 +79,7 @@ subtitle: "A condensed view; full PDF below."
 <h2>Awards</h2>
 
 <div class="cv-entry">
-  <div class="cv-date">TODO</div>
+  <div class="cv-date">2022</div>
   <div class="cv-body">
     <div class="cv-title">Reaching Out Award</div>
     <div class="cv-meta">HKSAR Government Scholarship Fund</div>
